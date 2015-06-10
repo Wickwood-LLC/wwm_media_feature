@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WWM Media Feature feature.
+ */
+
+include_once 'wwm_media_feature.features.inc';
