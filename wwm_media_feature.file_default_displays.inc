@@ -215,6 +215,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '',
+    'link_to_flickr' => 0,
   );
   $export['image__media_gallery_lightbox__media_flickr_image'] = $file_display;
 
@@ -277,6 +278,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '',
+    'link_to_flickr' => 0,
   );
   $export['image__media_gallery_thumbnail__media_flickr_image'] = $file_display;
 
@@ -1942,7 +1944,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display->weight = -47;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => 'scale_480x360',
+    'image_style' => 'panopoly_image_video',
   );
   $export['video__default__media_vimeo_image'] = $file_display;
 

@@ -11,6 +11,9 @@ function wwm_media_feature_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "file_entity" && $api == "file_default_displays") {
     return array("version" => "1");
   }
+  if ($module == "strongarm" && $api == "strongarm") {
+    return array("version" => "1");
+  }
 }
 
 /**
@@ -23,7 +26,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-landscape-290x210'] = array(
     'label' => 'polaroid-landscape-290x210',
     'effects' => array(
-      62 => array(
+      45 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -31,7 +34,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      103 => array(
+      46 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 290,
@@ -39,7 +42,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      97 => array(
+      47 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -49,7 +52,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      70 => array(
+      48 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -71,7 +74,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -7,
       ),
-      71 => array(
+      49 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
