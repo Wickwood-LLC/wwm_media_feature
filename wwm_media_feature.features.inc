@@ -793,7 +793,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_480x360_rotate_right_7'] = array(
     'label' => 'scale_480x360_rotate_right_7',
     'effects' => array(
-      32 => array(
+      58 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -801,7 +801,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      49 => array(
+      59 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -810,7 +810,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      51 => array(
+      60 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -820,16 +820,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      33 => array(
+      63 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      50 => array(
+      62 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -923,7 +923,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_640x480_rotate_right_7'] = array(
     'label' => 'scale_640x480_rotate_right_7',
     'effects' => array(
-      35 => array(
+      52 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -931,7 +931,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      44 => array(
+      53 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -940,7 +940,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      45 => array(
+      54 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -950,16 +950,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      36 => array(
+      57 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      37 => array(
+      56 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,

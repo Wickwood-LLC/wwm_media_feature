@@ -215,6 +215,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '',
+    'link_to_flickr' => 0,
   );
   $export['image__media_gallery_lightbox__media_flickr_image'] = $file_display;
 
@@ -277,6 +278,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '',
+    'link_to_flickr' => 0,
   );
   $export['image__media_gallery_thumbnail__media_flickr_image'] = $file_display;
 
@@ -1865,7 +1867,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__file_field_file_default';
-  $file_display->weight = -39;
+  $file_display->weight = -47;
   $file_display->status = FALSE;
   $file_display->settings = '';
   $export['video__default__file_field_file_default'] = $file_display;
@@ -1873,7 +1875,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__file_field_file_table';
-  $file_display->weight = -43;
+  $file_display->weight = -50;
   $file_display->status = FALSE;
   $file_display->settings = '';
   $export['video__default__file_field_file_table'] = $file_display;
@@ -1881,7 +1883,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__file_field_file_url_plain';
-  $file_display->weight = -42;
+  $file_display->weight = -49;
   $file_display->status = FALSE;
   $file_display->settings = '';
   $export['video__default__file_field_file_url_plain'] = $file_display;
@@ -1889,7 +1891,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__file_field_media_large_icon';
-  $file_display->weight = -41;
+  $file_display->weight = -48;
   $file_display->status = FALSE;
   $file_display->settings = '';
   $export['video__default__file_field_media_large_icon'] = $file_display;
@@ -1917,7 +1919,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__media_bliptv_image';
-  $file_display->weight = -45;
+  $file_display->weight = -33;
   $file_display->status = TRUE;
   $file_display->settings = array(
     'image_style' => 'scale_480x360',
@@ -1927,7 +1929,7 @@ function wwm_media_feature_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__media_bliptv_video';
-  $file_display->weight = -46;
+  $file_display->weight = -44;
   $file_display->status = TRUE;
   $file_display->settings = array(
     'width' => '480',
@@ -1939,17 +1941,17 @@ function wwm_media_feature_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__media_vimeo_image';
-  $file_display->weight = -47;
+  $file_display->weight = -34;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => 'scale_480x360',
+    'image_style' => 'panopoly_image_video',
   );
   $export['video__default__media_vimeo_image'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__media_youtube_image';
-  $file_display->weight = -49;
+  $file_display->weight = -35;
   $file_display->status = TRUE;
   $file_display->settings = array(
     'image_style' => 'scale_480x360',
