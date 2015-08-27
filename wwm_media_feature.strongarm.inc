@@ -97,6 +97,12 @@ function wwm_media_feature_strongarm() {
         'custom settings' => 1,
       ),
     ),
+    'node' => array(
+      'featured_half_width' => array(
+        'label' => 'Featured Half Width',
+        'custom settings' => 1,
+      ),
+    ),
   );
   $export['entity_view_modes'] = $strongarm;
 

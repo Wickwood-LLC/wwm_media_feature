@@ -26,7 +26,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-landscape-290x210'] = array(
     'label' => 'polaroid-landscape-290x210',
     'effects' => array(
-      45 => array(
+      52 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -34,7 +34,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      46 => array(
+      53 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 290,
@@ -42,17 +42,17 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      47 => array(
+      54 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
         ),
         'weight' => -8,
       ),
-      48 => array(
+      55 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -74,7 +74,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -7,
       ),
-      49 => array(
+      56 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
@@ -92,7 +92,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-landscape-290x210-rotate-left'] = array(
     'label' => 'polaroid-landscape-290x210-rotate-left',
     'effects' => array(
-      63 => array(
+      57 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -100,7 +100,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      104 => array(
+      58 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 290,
@@ -108,17 +108,17 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      98 => array(
+      59 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
         ),
         'weight' => -8,
       ),
-      73 => array(
+      60 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -140,7 +140,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -7,
       ),
-      75 => array(
+      61 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
@@ -151,14 +151,14 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -6,
       ),
-      77 => array(
+      69 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
-        'weight' => -4,
+        'weight' => 6,
       ),
     ),
   );
@@ -167,7 +167,82 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-landscape-290x210-rotate-right'] = array(
     'label' => 'polaroid-landscape-290x210-rotate-right',
     'effects' => array(
+      63 => array(
+        'name' => 'coloractions_convert',
+        'data' => array(
+          'format' => 'image/png',
+          'quality' => 75,
+        ),
+        'weight' => -10,
+      ),
       64 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 290,
+          'height' => 210,
+        ),
+        'weight' => -9,
+      ),
+      65 => array(
+        'name' => 'canvasactions_file2canvas',
+        'data' => array(
+          'xpos' => 'right',
+          'ypos' => 'bottom',
+          'alpha' => 100,
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
+        ),
+        'weight' => -8,
+      ),
+      66 => array(
+        'name' => 'canvasactions_definecanvas',
+        'data' => array(
+          'RGB' => array(
+            'HEX' => '',
+          ),
+          'under' => 1,
+          'exact' => array(
+            'width' => 331,
+            'height' => 291,
+            'xpos' => 22,
+            'ypos' => 15,
+          ),
+          'relative' => array(
+            'leftdiff' => '',
+            'rightdiff' => '',
+            'topdiff' => '',
+            'bottomdiff' => '',
+          ),
+        ),
+        'weight' => -7,
+      ),
+      67 => array(
+        'name' => 'canvasactions_canvas2file',
+        'data' => array(
+          'xpos' => 0,
+          'ypos' => 0,
+          'alpha' => 100,
+          'path' => 'public://polaroid-template-transparent-landscape.png',
+          'dimensions' => 'original',
+        ),
+        'weight' => -6,
+      ),
+      70 => array(
+        'name' => 'image_rotate',
+        'data' => array(
+          'degrees' => 7,
+          'bgcolor' => '#FFFFFF',
+          'random' => 0,
+        ),
+        'weight' => 6,
+      ),
+    ),
+  );
+
+  // Exported image style: polaroid-portrait-210x270.
+  $styles['polaroid-portrait-210x270'] = array(
+    'label' => 'polaroid-portrait-210x270',
+    'effects' => array(
+      71 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -178,97 +253,22 @@ function wwm_media_feature_image_default_styles() {
       72 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 290,
-          'height' => 210,
-        ),
-        'weight' => -9,
-      ),
-      99 => array(
-        'name' => 'canvasactions_file2canvas',
-        'data' => array(
-          'xpos' => 'right',
-          'ypos' => 'bottom',
-          'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
-        ),
-        'weight' => -8,
-      ),
-      74 => array(
-        'name' => 'canvasactions_definecanvas',
-        'data' => array(
-          'RGB' => array(
-            'HEX' => '',
-          ),
-          'under' => 1,
-          'exact' => array(
-            'width' => 331,
-            'height' => 291,
-            'xpos' => 22,
-            'ypos' => 15,
-          ),
-          'relative' => array(
-            'leftdiff' => '',
-            'rightdiff' => '',
-            'topdiff' => '',
-            'bottomdiff' => '',
-          ),
-        ),
-        'weight' => -7,
-      ),
-      76 => array(
-        'name' => 'canvasactions_canvas2file',
-        'data' => array(
-          'xpos' => 0,
-          'ypos' => 0,
-          'alpha' => 100,
-          'path' => 'public://polaroid-template-transparent-landscape.png',
-          'dimensions' => 'original',
-        ),
-        'weight' => -6,
-      ),
-      78 => array(
-        'name' => 'image_rotate',
-        'data' => array(
-          'degrees' => 7,
-          'bgcolor' => '',
-          'random' => 0,
-        ),
-        'weight' => -4,
-      ),
-    ),
-  );
-
-  // Exported image style: polaroid-portrait-210x270.
-  $styles['polaroid-portrait-210x270'] = array(
-    'label' => 'polaroid-portrait-210x270',
-    'effects' => array(
-      65 => array(
-        'name' => 'coloractions_convert',
-        'data' => array(
-          'format' => 'image/png',
-          'quality' => 75,
-        ),
-        'weight' => -10,
-      ),
-      106 => array(
-        'name' => 'image_scale_and_crop',
-        'data' => array(
           'width' => 210,
           'height' => 270,
         ),
         'weight' => -9,
       ),
-      100 => array(
+      73 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
         ),
         'weight' => -7,
       ),
-      80 => array(
+      74 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -290,7 +290,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -6,
       ),
-      81 => array(
+      75 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
@@ -308,7 +308,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-portrait-210x270-rotate-left'] = array(
     'label' => 'polaroid-portrait-210x270-rotate-left',
     'effects' => array(
-      66 => array(
+      76 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -316,7 +316,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      107 => array(
+      77 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 210,
@@ -324,13 +324,88 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      101 => array(
+      78 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
+        ),
+        'weight' => -8,
+      ),
+      79 => array(
+        'name' => 'canvasactions_definecanvas',
+        'data' => array(
+          'RGB' => array(
+            'HEX' => '',
+          ),
+          'under' => 1,
+          'exact' => array(
+            'width' => 248,
+            'height' => 351,
+            'xpos' => 22,
+            'ypos' => 15,
+          ),
+          'relative' => array(
+            'leftdiff' => '',
+            'rightdiff' => '',
+            'topdiff' => '',
+            'bottomdiff' => '',
+          ),
+        ),
+        'weight' => -7,
+      ),
+      80 => array(
+        'name' => 'canvasactions_canvas2file',
+        'data' => array(
+          'xpos' => 0,
+          'ypos' => 0,
+          'alpha' => 100,
+          'path' => 'public://polaroid-template-transparent-portrait.png',
+          'dimensions' => 'original',
+        ),
+        'weight' => -6,
+      ),
+      88 => array(
+        'name' => 'image_rotate',
+        'data' => array(
+          'degrees' => -7,
+          'bgcolor' => '#FFFFFF',
+          'random' => 0,
+        ),
+        'weight' => 6,
+      ),
+    ),
+  );
+
+  // Exported image style: polaroid-portrait-210x270-rotate-right.
+  $styles['polaroid-portrait-210x270-rotate-right'] = array(
+    'label' => 'polaroid-portrait-210x270-rotate-right',
+    'effects' => array(
+      82 => array(
+        'name' => 'coloractions_convert',
+        'data' => array(
+          'format' => 'image/png',
+          'quality' => 75,
+        ),
+        'weight' => -10,
+      ),
+      83 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 210,
+          'height' => 270,
+        ),
+        'weight' => -9,
+      ),
+      84 => array(
+        'name' => 'canvasactions_file2canvas',
+        'data' => array(
+          'xpos' => 'right',
+          'ypos' => 'bottom',
+          'alpha' => 100,
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
         ),
         'weight' => -8,
       ),
@@ -370,86 +445,11 @@ function wwm_media_feature_image_default_styles() {
       89 => array(
         'name' => 'image_rotate',
         'data' => array(
-          'degrees' => -7,
-          'bgcolor' => '',
-          'random' => 0,
-        ),
-        'weight' => -4,
-      ),
-    ),
-  );
-
-  // Exported image style: polaroid-portrait-210x270-rotate-right.
-  $styles['polaroid-portrait-210x270-rotate-right'] = array(
-    'label' => 'polaroid-portrait-210x270-rotate-right',
-    'effects' => array(
-      67 => array(
-        'name' => 'coloractions_convert',
-        'data' => array(
-          'format' => 'image/png',
-          'quality' => 75,
-        ),
-        'weight' => -10,
-      ),
-      108 => array(
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => 210,
-          'height' => 270,
-        ),
-        'weight' => -9,
-      ),
-      102 => array(
-        'name' => 'canvasactions_file2canvas',
-        'data' => array(
-          'xpos' => 'right',
-          'ypos' => 'bottom',
-          'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
-        ),
-        'weight' => -8,
-      ),
-      84 => array(
-        'name' => 'canvasactions_definecanvas',
-        'data' => array(
-          'RGB' => array(
-            'HEX' => '',
-          ),
-          'under' => 1,
-          'exact' => array(
-            'width' => 248,
-            'height' => 351,
-            'xpos' => 22,
-            'ypos' => 15,
-          ),
-          'relative' => array(
-            'leftdiff' => '',
-            'rightdiff' => '',
-            'topdiff' => '',
-            'bottomdiff' => '',
-          ),
-        ),
-        'weight' => -7,
-      ),
-      87 => array(
-        'name' => 'canvasactions_canvas2file',
-        'data' => array(
-          'xpos' => 0,
-          'ypos' => 0,
-          'alpha' => 100,
-          'path' => 'public://polaroid-template-transparent-portrait.png',
-          'dimensions' => 'original',
-        ),
-        'weight' => -6,
-      ),
-      88 => array(
-        'name' => 'image_rotate',
-        'data' => array(
           'degrees' => 7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
-        'weight' => -4,
+        'weight' => 6,
       ),
     ),
   );
@@ -458,7 +458,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_160x120'] = array(
     'label' => 'scale_160x120',
     'effects' => array(
-      7 => array(
+      90 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
@@ -467,13 +467,13 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      40 => array(
+      91 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
         ),
         'weight' => 2,
       ),
@@ -484,7 +484,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_160x120_rotate_left_7'] = array(
     'label' => 'scale_160x120_rotate_left_7',
     'effects' => array(
-      14 => array(
+      92 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -492,7 +492,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      42 => array(
+      93 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
@@ -501,33 +501,33 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      41 => array(
+      94 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
         ),
         'weight' => -8,
       ),
-      13 => array(
+      102 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
-        'weight' => -6,
+        'weight' => -7,
       ),
-      12 => array(
+      96 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
           'height' => 120,
           'upscale' => 1,
         ),
-        'weight' => -5,
+        'weight' => -6,
       ),
     ),
   );
@@ -536,7 +536,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_160x120_rotate_right_7'] = array(
     'label' => 'scale_160x120_rotate_right_7',
     'effects' => array(
-      26 => array(
+      97 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -544,7 +544,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      28 => array(
+      98 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
@@ -553,33 +553,33 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      60 => array(
+      99 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-32x24-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-32x24-knockout.png',
         ),
         'weight' => -8,
       ),
-      27 => array(
+      103 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      61 => array(
+      101 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
           'height' => 120,
           'upscale' => 1,
         ),
-        'weight' => 5,
+        'weight' => -6,
       ),
     ),
   );
@@ -588,7 +588,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_320x240'] = array(
     'label' => 'scale_320x240',
     'effects' => array(
-      9 => array(
+      104 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -597,13 +597,13 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      59 => array(
+      105 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => 2,
       ),
@@ -614,7 +614,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_320x240_rotate_left_7'] = array(
     'label' => 'scale_320x240_rotate_left_7',
     'effects' => array(
-      20 => array(
+      106 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -622,7 +622,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      22 => array(
+      107 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -631,26 +631,26 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      58 => array(
+      108 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => -8,
       ),
-      21 => array(
+      116 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      57 => array(
+      110 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -666,7 +666,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_320x240_rotate_right_7'] = array(
     'label' => 'scale_320x240_rotate_right_7',
     'effects' => array(
-      29 => array(
+      111 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -674,7 +674,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      55 => array(
+      112 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -683,26 +683,26 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      56 => array(
+      113 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => -8,
       ),
-      30 => array(
+      117 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      31 => array(
+      115 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -718,7 +718,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_480x360'] = array(
     'label' => 'scale_480x360',
     'effects' => array(
-      10 => array(
+      118 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -727,13 +727,13 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      54 => array(
+      119 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => 2,
       ),
@@ -744,7 +744,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_480x360_rotate_left_7'] = array(
     'label' => 'scale_480x360_rotate_left_7',
     'effects' => array(
-      17 => array(
+      125 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -752,7 +752,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      19 => array(
+      126 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -761,26 +761,26 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      53 => array(
+      127 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => -8,
       ),
-      18 => array(
+      130 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      52 => array(
+      129 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -796,7 +796,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_480x360_rotate_right_7'] = array(
     'label' => 'scale_480x360_rotate_right_7',
     'effects' => array(
-      32 => array(
+      120 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -804,7 +804,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      49 => array(
+      121 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -813,26 +813,26 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      51 => array(
+      122 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => -8,
       ),
-      33 => array(
+      131 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      50 => array(
+      124 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -848,7 +848,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_640x480'] = array(
     'label' => 'scale_640x480',
     'effects' => array(
-      11 => array(
+      132 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -857,13 +857,13 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => 1,
       ),
-      48 => array(
+      133 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => 2,
       ),
@@ -874,7 +874,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_640x480_rotate_left_7'] = array(
     'label' => 'scale_640x480_rotate_left_7',
     'effects' => array(
-      23 => array(
+      139 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -882,7 +882,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      46 => array(
+      140 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -891,26 +891,26 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      47 => array(
+      141 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => -8,
       ),
-      24 => array(
+      144 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      25 => array(
+      143 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -926,7 +926,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_640x480_rotate_right_7'] = array(
     'label' => 'scale_640x480_rotate_right_7',
     'effects' => array(
-      35 => array(
+      134 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -934,7 +934,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      44 => array(
+      135 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -943,26 +943,26 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      45 => array(
+      136 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
           'ypos' => 'bottom',
           'alpha' => 100,
-          'path' => 'public://watermark-64x48-knockout.png',
+          'path' => 'public://image_cache_backgrounds/watermark-64x48-knockout.png',
         ),
         'weight' => -8,
       ),
-      36 => array(
+      145 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '',
+          'bgcolor' => '#FFFFFF',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      37 => array(
+      138 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
