@@ -92,7 +92,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-landscape-290x210-rotate-left'] = array(
     'label' => 'polaroid-landscape-290x210-rotate-left',
     'effects' => array(
-      57 => array(
+      164 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -100,7 +100,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      58 => array(
+      165 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 290,
@@ -108,7 +108,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      59 => array(
+      166 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -118,7 +118,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      60 => array(
+      167 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -140,7 +140,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -7,
       ),
-      61 => array(
+      168 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
@@ -151,11 +151,11 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -6,
       ),
-      69 => array(
+      169 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => 6,
@@ -167,7 +167,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-landscape-290x210-rotate-right'] = array(
     'label' => 'polaroid-landscape-290x210-rotate-right',
     'effects' => array(
-      63 => array(
+      170 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -175,7 +175,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      64 => array(
+      171 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 290,
@@ -183,7 +183,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      65 => array(
+      172 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -193,7 +193,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      66 => array(
+      173 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -215,7 +215,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -7,
       ),
-      67 => array(
+      174 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
@@ -226,11 +226,11 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -6,
       ),
-      70 => array(
+      175 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => 6,
@@ -308,7 +308,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-portrait-210x270-rotate-left'] = array(
     'label' => 'polaroid-portrait-210x270-rotate-left',
     'effects' => array(
-      76 => array(
+      176 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -316,7 +316,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      77 => array(
+      177 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 210,
@@ -324,7 +324,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      78 => array(
+      178 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -334,7 +334,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      79 => array(
+      179 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -356,7 +356,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -7,
       ),
-      80 => array(
+      180 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
@@ -367,11 +367,11 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -6,
       ),
-      88 => array(
+      181 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => 6,
@@ -383,7 +383,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['polaroid-portrait-210x270-rotate-right'] = array(
     'label' => 'polaroid-portrait-210x270-rotate-right',
     'effects' => array(
-      82 => array(
+      182 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -391,7 +391,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      83 => array(
+      183 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 210,
@@ -399,7 +399,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      84 => array(
+      184 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -409,7 +409,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      85 => array(
+      185 => array(
         'name' => 'canvasactions_definecanvas',
         'data' => array(
           'RGB' => array(
@@ -431,7 +431,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -7,
       ),
-      86 => array(
+      186 => array(
         'name' => 'canvasactions_canvas2file',
         'data' => array(
           'xpos' => 0,
@@ -442,11 +442,11 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -6,
       ),
-      89 => array(
+      187 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => 6,
@@ -484,7 +484,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_160x120_rotate_left_7'] = array(
     'label' => 'scale_160x120_rotate_left_7',
     'effects' => array(
-      92 => array(
+      188 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -492,7 +492,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      93 => array(
+      189 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
@@ -501,7 +501,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      94 => array(
+      190 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -511,16 +511,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      102 => array(
+      191 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      96 => array(
+      192 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
@@ -536,7 +536,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_160x120_rotate_right_7'] = array(
     'label' => 'scale_160x120_rotate_right_7',
     'effects' => array(
-      97 => array(
+      193 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -544,7 +544,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      98 => array(
+      194 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
@@ -553,7 +553,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      99 => array(
+      195 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -563,16 +563,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      103 => array(
+      196 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      101 => array(
+      197 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 160,
@@ -614,7 +614,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_320x240_rotate_left_7'] = array(
     'label' => 'scale_320x240_rotate_left_7',
     'effects' => array(
-      106 => array(
+      198 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -622,7 +622,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      107 => array(
+      199 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -631,7 +631,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      108 => array(
+      200 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -641,16 +641,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      116 => array(
+      201 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      110 => array(
+      202 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -666,7 +666,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_320x240_rotate_right_7'] = array(
     'label' => 'scale_320x240_rotate_right_7',
     'effects' => array(
-      111 => array(
+      203 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -674,7 +674,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      112 => array(
+      204 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -683,7 +683,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      113 => array(
+      205 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -693,16 +693,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      117 => array(
+      206 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      115 => array(
+      207 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 320,
@@ -744,7 +744,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_480x360_rotate_left_7'] = array(
     'label' => 'scale_480x360_rotate_left_7',
     'effects' => array(
-      125 => array(
+      213 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -752,7 +752,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      126 => array(
+      214 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -761,7 +761,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      127 => array(
+      215 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -771,16 +771,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      130 => array(
+      216 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      129 => array(
+      217 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -796,7 +796,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_480x360_rotate_right_7'] = array(
     'label' => 'scale_480x360_rotate_right_7',
     'effects' => array(
-      120 => array(
+      208 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -804,7 +804,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      121 => array(
+      209 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -813,7 +813,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      122 => array(
+      210 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -823,16 +823,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      131 => array(
+      211 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      124 => array(
+      212 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 480,
@@ -874,7 +874,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_640x480_rotate_left_7'] = array(
     'label' => 'scale_640x480_rotate_left_7',
     'effects' => array(
-      139 => array(
+      218 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -882,7 +882,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      140 => array(
+      219 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -891,7 +891,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      141 => array(
+      220 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -901,16 +901,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      144 => array(
+      221 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => -7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      143 => array(
+      222 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -926,7 +926,7 @@ function wwm_media_feature_image_default_styles() {
   $styles['scale_640x480_rotate_right_7'] = array(
     'label' => 'scale_640x480_rotate_right_7',
     'effects' => array(
-      134 => array(
+      223 => array(
         'name' => 'coloractions_convert',
         'data' => array(
           'format' => 'image/png',
@@ -934,7 +934,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -10,
       ),
-      135 => array(
+      224 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
@@ -943,7 +943,7 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -9,
       ),
-      136 => array(
+      225 => array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
           'xpos' => 'right',
@@ -953,16 +953,16 @@ function wwm_media_feature_image_default_styles() {
         ),
         'weight' => -8,
       ),
-      145 => array(
+      226 => array(
         'name' => 'image_rotate',
         'data' => array(
           'degrees' => 7,
-          'bgcolor' => '#FFFFFF',
+          'bgcolor' => '',
           'random' => 0,
         ),
         'weight' => -7,
       ),
-      138 => array(
+      227 => array(
         'name' => 'image_scale',
         'data' => array(
           'width' => 640,
