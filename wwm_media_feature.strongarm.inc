@@ -61,7 +61,7 @@ function wwm_media_feature_strongarm() {
         'custom settings' => 1,
       ),
       'scale_320x240' => array(
-        'label' => 'scale_320x240',
+        'label' => 'Scale 320 x 240 (4:3)',
         'custom settings' => 1,
       ),
       'scale_320x240_rotate_left' => array(
@@ -73,7 +73,7 @@ function wwm_media_feature_strongarm() {
         'custom settings' => 1,
       ),
       'scale_480x360' => array(
-        'label' => 'scale_480x360',
+        'label' => 'Scale 480 x 360 (4:3)',
         'custom settings' => 1,
       ),
       'scale_480x360_rotate_left' => array(
@@ -85,7 +85,7 @@ function wwm_media_feature_strongarm() {
         'custom settings' => 1,
       ),
       'scale_640x480' => array(
-        'label' => 'scale_640x480',
+        'label' => 'Scale 640 x 480 (4:3)',
         'custom settings' => 1,
       ),
       'scale_640x480_rotate_left' => array(
