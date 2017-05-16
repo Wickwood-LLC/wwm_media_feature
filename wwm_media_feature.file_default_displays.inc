@@ -3148,26 +3148,6 @@ function wwm_media_feature_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
-  $file_display->name = 'video__media_original__media_vimeo_image';
-  $file_display->weight = -32;
-  $file_display->status = TRUE;
-  $file_display->settings = array(
-    'image_style' => '',
-  );
-  $export['video__media_original__media_vimeo_image'] = $file_display;
-
-  $file_display = new stdClass();
-  $file_display->api_version = 1;
-  $file_display->name = 'video__media_original__media_youtube_image';
-  $file_display->weight = -34;
-  $file_display->status = TRUE;
-  $file_display->settings = array(
-    'image_style' => '',
-  );
-  $export['video__media_original__media_youtube_image'] = $file_display;
-
-  $file_display = new stdClass();
-  $file_display->api_version = 1;
   $file_display->name = 'video__media_small__file_field_file_default';
   $file_display->weight = -32;
   $file_display->status = FALSE;
